@@ -1,25 +1,12 @@
-### **Description of the Railway Management System Python Code**
+### **Railway E-Ticket Booking Portal**
 
-This Python script is a **Railway Management System** that allows users to create accounts, log in, book train tickets, check ticket status, cancel tickets, and manage their accounts. It uses **MySQL** as the database for storing user accounts and ticket details.
-
----
-
-## **Key Features of the Code**
-
-### **1. Database Connection Setup**
-- The script prompts the user to enter MySQL **hostname, username, and password**.
-- Establishes a connection to the MySQL database using `mysql.connector`.
-- Enables **autocommit mode** to execute queries automatically.
-
-### **2. Database & Table Creation**
-- The database **"IRCTC"** is created if it doesn’t exist.
-- Two tables are created:
-  - **`accounts`**: Stores user account details (ID, password, name, gender, age, DOB, phone number).
-  - **`tickets`**: Stores ticket details (ID, PNR, train name, journey date, departure station, destination).
+This is a **Railway E-Ticket Booking Portal** that allows users to create accounts, log in, book train tickets, check ticket status, cancel tickets, and manage their accounts. It uses **MySQL** as the database for storing user accounts and ticket details.
 
 ---
 
-## **3. User Authentication & Account Management**
+## **Key Features**
+
+## **User Authentication & Account Management**
 ### **Login Menu (`login_menu`)**
 - Displays three options:
   1. Create a new account
@@ -39,7 +26,7 @@ This Python script is a **Railway Management System** that allows users to creat
 
 ---
 
-## **4. Main Functionalities**
+## **Main Functionalities**
 ### **Main Menu (`main_menu`)**
 - Once logged in, users can:
   1. Purchase a Ticket
